@@ -8,7 +8,7 @@ if [ -d "$DOTFILES_PATH" ]; then
   echo "My dotfiles already installed."
 else
   echo "Installing my dotfiles..."
-  git clone https://github.com/javierjulio/dotfiles.git "$DOTFILES_PATH"
+  git clone https://github.com/ericny2sf/dotfiles.git "$DOTFILES_PATH"
   cd "$DOTFILES_PATH"
   rake install
 fi
